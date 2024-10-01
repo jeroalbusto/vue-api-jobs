@@ -1,9 +1,7 @@
 <script setup>
 // pasar y definir prop por defecto
-import { defineProps } from 'vue';
-
-defineProps({
-    title: {
+const props = defineProps({
+  title: {
         type: String,
         default: 'Become a Vue Developer'
     },
@@ -24,10 +22,10 @@ defineProps({
           <h1
             class="text-4xl font-extrabold text-white sm:text-5xl md:text-6xl"
           >
-            {{ title }}
+            {{ props.title }}
           </h1>
           <p class="my-4 text-xl text-white">
-            {{ subtitle }}
+            {{ props.subtitle }}
           </p>
         </div>
       </div>
