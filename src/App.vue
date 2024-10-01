@@ -1,0 +1,12 @@
+<script setup>
+import Navbar from '@/components/Navbar.vue';
+import Hero from '@/components/Hero.vue';
+import HomeCards from '@/components/HomeCards.vue';
+</script>
+<template>
+    <Navbar />
+    <!-- al componente le agrego props -->
+    <Hero title="Test title" subtitle="test subtitle" />
+
+    <HomeCards />
+</template>
