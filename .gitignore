@@ -10,8 +10,8 @@ lerna-debug.log*
 
 _theme_files/
 
-src/components/App3.vue
-src/components/App2.vue
+src/App3.vue
+src/App2.vue
 
 
 node_modules
